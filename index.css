@@ -112,11 +112,18 @@
   min-height: 1191px;
 }
 
+.u-section-3 .u-btn-1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 23px auto 0;
+}
+
 .u-section-3 .u-text-1 {
   font-size: 3rem;
   font-weight: 700;
   font-family: Lobster, display;
-  margin: 88px 79px 0;
+  margin: 23px 79px 0;
 }
 
 .u-section-3 .u-gallery-1 {
@@ -160,7 +167,7 @@
   margin: 43px auto 0;
 }
 
-.u-section-3 .u-btn-1 {
+.u-section-3 .u-btn-2 {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 500;
@@ -174,7 +181,7 @@
 
 @media (max-width: 1199px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1060px;
+    min-height: 1059px;
   }
 
   .u-section-3 .u-text-1 {
@@ -190,14 +197,14 @@
     grid-gap: 41px;
   }
 
-  .u-section-3 .u-btn-1 {
+  .u-section-3 .u-btn-2 {
     border-style: solid;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1504px;
+    min-height: 1521px;
   }
 
   .u-section-3 .u-gallery-1 {
@@ -211,7 +218,7 @@
 
 @media (max-width: 767px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 3620px;
+    min-height: 3730px;
   }
 
   .u-section-3 .u-gallery-1 {
@@ -225,7 +232,7 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 2444px;
+    min-height: 2545px;
   }
 
   .u-section-3 .u-text-1 {
