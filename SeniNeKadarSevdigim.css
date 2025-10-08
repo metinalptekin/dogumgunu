@@ -380,5 +380,38 @@
     padding: 10px;
   }
 }
+ /* Kalplerin mobilde de yatay hizalanması için düzeltme */
+.u-section-1 .u-repeater-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px; /* aralarındaki boşluk */
+}
+
+/* Kalp boyutlarını ve hizasını biraz güzelleştirelim */
+.u-section-1 .u-icon-1,
+.u-section-1 .u-icon-2,
+.u-section-1 .u-icon-3,
+.u-section-1 .u-icon-4 {
+  width: 60px;
+  height: 60px;
+  color: rgb(215, 90, 74);
+  flex-shrink: 0;
+}
+
+/* Mobilde görünüm bozulmasın */
+@media (max-width: 575px) {
+  .u-section-1 .u-repeater-1 {
+    flex-direction: row; /* yine yan yana kalsın */
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .u-section-1 .u-icon-4 {
+    margin: 10px auto;
+  }
+}
+
 
 }
