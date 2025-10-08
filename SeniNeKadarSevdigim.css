@@ -370,48 +370,11 @@
   .u-section-3 .u-carousel-control-1 {
     left: 6px;
   }
- @media (max-width: 575px) {
-  .u-text-1, .u-text-2, .u-text-3, .u-text-4, .u-text-5 {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    font-size: 1rem;
-    text-align: center;
-    padding: 10px;
-  }
-}
- /* Kalplerin mobilde de yatay hizalanması için düzeltme */
-.u-section-1 .u-repeater-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px; /* aralarındaki boşluk */
-}
 
-/* Kalp boyutlarını ve hizasını biraz güzelleştirelim */
-.u-section-1 .u-icon-1,
-.u-section-1 .u-icon-2,
-.u-section-1 .u-icon-3,
-.u-section-1 .u-icon-4 {
-  width: 60px;
-  height: 60px;
-  color: rgb(215, 90, 74);
-  flex-shrink: 0;
-}
+ 
 
-/* Mobilde görünüm bozulmasın */
-@media (max-width: 575px) {
-  .u-section-1 .u-repeater-1 {
-    flex-direction: row; /* yine yan yana kalsın */
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 
-  .u-section-1 .u-icon-4 {
-    margin: 10px auto;
-  }
-}
+
 
 
 }
